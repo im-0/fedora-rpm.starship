@@ -2,7 +2,7 @@
 %global __brp_mangle_shebangs_exclude_from ^/usr/src/.*$
 
 Name:           starship
-Version:        1.21.1
+Version:        1.22.1
 Release:        1%{?dist}
 Summary:        The minimal, blazing-fast, and infinitely customizable prompt for any shell!
 
@@ -21,6 +21,7 @@ Source2:    config.toml
 BuildRequires:  cargo-rpm-macros
 BuildRequires:  gcc
 BuildRequires:  g++
+BuildRequires:  cmake
 
 
 %description
